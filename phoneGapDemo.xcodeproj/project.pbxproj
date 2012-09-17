@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69E7E30A16074987006764ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30916074987006764ED /* UIKit.framework */; };
+		69E7E30C16074987006764ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30B16074987006764ED /* Foundation.framework */; };
+		69E7E30E16074987006764ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30D16074987006764ED /* CoreGraphics.framework */; };
+		69E7E31016074987006764ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30F16074987006764ED /* CoreData.framework */; };
+		69E7E31616074987006764ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69E7E31416074987006764ED /* InfoPlist.strings */; };
+		69E7E31816074987006764ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E7E31716074987006764ED /* main.m */; };
+		69E7E31C16074987006764ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E7E31B16074987006764ED /* AppDelegate.m */; };
+		69E7E31F16074987006764ED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E7E31D16074987006764ED /* MainStoryboard_iPhone.storyboard */; };
+		69E7E32216074987006764ED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E7E32016074987006764ED /* MainStoryboard_iPad.storyboard */; };
+		69E7E32516074988006764ED /* phoneGapDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69E7E32316074988006764ED /* phoneGapDemo.xcdatamodeld */; };
+		69E7E32816074988006764ED /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E7E32716074988006764ED /* MasterViewController.m */; };
+		69E7E32B16074988006764ED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E7E32A16074988006764ED /* DetailViewController.m */; };
+		69E7E33316074988006764ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E33216074988006764ED /* SenTestingKit.framework */; };
+		69E7E33416074988006764ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30916074987006764ED /* UIKit.framework */; };
+		69E7E33516074988006764ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30B16074987006764ED /* Foundation.framework */; };
+		69E7E33616074988006764ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7E30F16074987006764ED /* CoreData.framework */; };
+		69E7E33E16074988006764ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69E7E33C16074988006764ED /* InfoPlist.strings */; };
+		69E7E34116074988006764ED /* phoneGapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E7E34016074988006764ED /* phoneGapDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69E7E33716074988006764ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E7E2FC16074987006764ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E7E30416074987006764ED;
+			remoteInfo = phoneGapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69E7E30516074987006764ED /* phoneGapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phoneGapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E7E30916074987006764ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69E7E30B16074987006764ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69E7E30D16074987006764ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69E7E30F16074987006764ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		69E7E31316074987006764ED /* phoneGapDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "phoneGapDemo-Info.plist"; sourceTree = "<group>"; };
+		69E7E31516074987006764ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69E7E31716074987006764ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69E7E31916074987006764ED /* phoneGapDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "phoneGapDemo-Prefix.pch"; sourceTree = "<group>"; };
+		69E7E31A16074987006764ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69E7E31B16074987006764ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69E7E31E16074987006764ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		69E7E32116074987006764ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		69E7E32416074988006764ED /* phoneGapDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = phoneGapDemo.xcdatamodel; sourceTree = "<group>"; };
+		69E7E32616074988006764ED /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		69E7E32716074988006764ED /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		69E7E32916074988006764ED /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		69E7E32A16074988006764ED /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		69E7E33116074988006764ED /* phoneGapDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phoneGapDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E7E33216074988006764ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		69E7E33B16074988006764ED /* phoneGapDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "phoneGapDemoTests-Info.plist"; sourceTree = "<group>"; };
+		69E7E33D16074988006764ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69E7E33F16074988006764ED /* phoneGapDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = phoneGapDemoTests.h; sourceTree = "<group>"; };
+		69E7E34016074988006764ED /* phoneGapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phoneGapDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E7E30216074987006764ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E7E30A16074987006764ED /* UIKit.framework in Frameworks */,
+				69E7E30C16074987006764ED /* Foundation.framework in Frameworks */,
+				69E7E30E16074987006764ED /* CoreGraphics.framework in Frameworks */,
+				69E7E31016074987006764ED /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E7E32D16074988006764ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E7E33316074988006764ED /* SenTestingKit.framework in Frameworks */,
+				69E7E33416074988006764ED /* UIKit.framework in Frameworks */,
+				69E7E33516074988006764ED /* Foundation.framework in Frameworks */,
+				69E7E33616074988006764ED /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69E7E2FA16074987006764ED = {
+			isa = PBXGroup;
+			children = (
+				69E7E31116074987006764ED /* phoneGapDemo */,
+				69E7E33916074988006764ED /* phoneGapDemoTests */,
+				69E7E30816074987006764ED /* Frameworks */,
+				69E7E30616074987006764ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69E7E30616074987006764ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69E7E30516074987006764ED /* phoneGapDemo.app */,
+				69E7E33116074988006764ED /* phoneGapDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E7E30816074987006764ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69E7E30916074987006764ED /* UIKit.framework */,
+				69E7E30B16074987006764ED /* Foundation.framework */,
+				69E7E30D16074987006764ED /* CoreGraphics.framework */,
+				69E7E30F16074987006764ED /* CoreData.framework */,
+				69E7E33216074988006764ED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69E7E31116074987006764ED /* phoneGapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69E7E31A16074987006764ED /* AppDelegate.h */,
+				69E7E31B16074987006764ED /* AppDelegate.m */,
+				69E7E31D16074987006764ED /* MainStoryboard_iPhone.storyboard */,
+				69E7E32016074987006764ED /* MainStoryboard_iPad.storyboard */,
+				69E7E32616074988006764ED /* MasterViewController.h */,
+				69E7E32716074988006764ED /* MasterViewController.m */,
+				69E7E32916074988006764ED /* DetailViewController.h */,
+				69E7E32A16074988006764ED /* DetailViewController.m */,
+				69E7E32316074988006764ED /* phoneGapDemo.xcdatamodeld */,
+				69E7E31216074987006764ED /* Supporting Files */,
+			);
+			path = phoneGapDemo;
+			sourceTree = "<group>";
+		};
+		69E7E31216074987006764ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69E7E31316074987006764ED /* phoneGapDemo-Info.plist */,
+				69E7E31416074987006764ED /* InfoPlist.strings */,
+				69E7E31716074987006764ED /* main.m */,
+				69E7E31916074987006764ED /* phoneGapDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69E7E33916074988006764ED /* phoneGapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				69E7E33F16074988006764ED /* phoneGapDemoTests.h */,
+				69E7E34016074988006764ED /* phoneGapDemoTests.m */,
+				69E7E33A16074988006764ED /* Supporting Files */,
+			);
+			path = phoneGapDemoTests;
+			sourceTree = "<group>";
+		};
+		69E7E33A16074988006764ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69E7E33B16074988006764ED /* phoneGapDemoTests-Info.plist */,
+				69E7E33C16074988006764ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69E7E30416074987006764ED /* phoneGapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E7E34416074988006764ED /* Build configuration list for PBXNativeTarget "phoneGapDemo" */;
+			buildPhases = (
+				69E7E30116074987006764ED /* Sources */,
+				69E7E30216074987006764ED /* Frameworks */,
+				69E7E30316074987006764ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phoneGapDemo;
+			productName = phoneGapDemo;
+			productReference = 69E7E30516074987006764ED /* phoneGapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E7E33016074988006764ED /* phoneGapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E7E34716074988006764ED /* Build configuration list for PBXNativeTarget "phoneGapDemoTests" */;
+			buildPhases = (
+				69E7E32C16074988006764ED /* Sources */,
+				69E7E32D16074988006764ED /* Frameworks */,
+				69E7E32E16074988006764ED /* Resources */,
+				69E7E32F16074988006764ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E7E33816074988006764ED /* PBXTargetDependency */,
+			);
+			name = phoneGapDemoTests;
+			productName = phoneGapDemoTests;
+			productReference = 69E7E33116074988006764ED /* phoneGapDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69E7E2FC16074987006764ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jay Kumbhani";
+			};
+			buildConfigurationList = 69E7E2FF16074987006764ED /* Build configuration list for PBXProject "phoneGapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69E7E2FA16074987006764ED;
+			productRefGroup = 69E7E30616074987006764ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E7E30416074987006764ED /* phoneGapDemo */,
+				69E7E33016074988006764ED /* phoneGapDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69E7E30316074987006764ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E7E31616074987006764ED /* InfoPlist.strings in Resources */,
+				69E7E31F16074987006764ED /* MainStoryboard_iPhone.storyboard in Resources */,
+				69E7E32216074987006764ED /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E7E32E16074988006764ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E7E33E16074988006764ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69E7E32F16074988006764ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69E7E30116074987006764ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E7E31816074987006764ED /* main.m in Sources */,
+				69E7E31C16074987006764ED /* AppDelegate.m in Sources */,
+				69E7E32516074988006764ED /* phoneGapDemo.xcdatamodeld in Sources */,
+				69E7E32816074988006764ED /* MasterViewController.m in Sources */,
+				69E7E32B16074988006764ED /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E7E32C16074988006764ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E7E34116074988006764ED /* phoneGapDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69E7E33816074988006764ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E7E30416074987006764ED /* phoneGapDemo */;
+			targetProxy = 69E7E33716074988006764ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69E7E31416074987006764ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E7E31516074987006764ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69E7E31D16074987006764ED /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E7E31E16074987006764ED /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		69E7E32016074987006764ED /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E7E32116074987006764ED /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		69E7E33C16074988006764ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E7E33D16074988006764ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69E7E34216074988006764ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69E7E34316074988006764ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E7E34516074988006764ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "phoneGapDemo/phoneGapDemo-Prefix.pch";
+				INFOPLIST_FILE = "phoneGapDemo/phoneGapDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69E7E34616074988006764ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "phoneGapDemo/phoneGapDemo-Prefix.pch";
+				INFOPLIST_FILE = "phoneGapDemo/phoneGapDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69E7E34816074988006764ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/phoneGapDemo.app/phoneGapDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "phoneGapDemo/phoneGapDemo-Prefix.pch";
+				INFOPLIST_FILE = "phoneGapDemoTests/phoneGapDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		69E7E34916074988006764ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/phoneGapDemo.app/phoneGapDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "phoneGapDemo/phoneGapDemo-Prefix.pch";
+				INFOPLIST_FILE = "phoneGapDemoTests/phoneGapDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E7E2FF16074987006764ED /* Build configuration list for PBXProject "phoneGapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E7E34216074988006764ED /* Debug */,
+				69E7E34316074988006764ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E7E34416074988006764ED /* Build configuration list for PBXNativeTarget "phoneGapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E7E34516074988006764ED /* Debug */,
+				69E7E34616074988006764ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69E7E34716074988006764ED /* Build configuration list for PBXNativeTarget "phoneGapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E7E34816074988006764ED /* Debug */,
+				69E7E34916074988006764ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69E7E32316074988006764ED /* phoneGapDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69E7E32416074988006764ED /* phoneGapDemo.xcdatamodel */,
+			);
+			currentVersion = 69E7E32416074988006764ED /* phoneGapDemo.xcdatamodel */;
+			path = phoneGapDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69E7E2FC16074987006764ED /* Project object */;
+}
